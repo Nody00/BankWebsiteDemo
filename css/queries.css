@@ -1,0 +1,268 @@
+/* ############## */
+/* Bellow 1060px */
+/* ############## */
+
+@media (max-width: 66em) {
+  html {
+    font-size: 56.25%;
+  }
+  .heading-primary {
+    font-size: 6.4rem;
+  }
+  .section-hero {
+    padding: 0 6.4rem;
+  }
+  .btn:link,
+  .btn:visited {
+    padding: 1.2rem 2.4rem;
+  }
+  .grid {
+    column-gap: 6.4rem;
+  }
+  .margin-sm-right {
+    margin-right: 0;
+  }
+  .btn--full {
+    margin-bottom: 1.2rem;
+  }
+  .section-trusted {
+    padding: 0 6.4rem;
+  }
+  .nav-list {
+    gap: 3.2rem;
+  }
+}
+
+/* ############## */
+/* Bellow 864px */
+/* ############## */
+
+@media (max-width: 54em) {
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .heading-primary {
+    font-size: 5.2rem;
+  }
+  header {
+    margin-bottom: 6.4rem;
+  }
+  .hero-img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-img {
+    width: 70%;
+  }
+  .trusted-text--span {
+    grid-column: span 2;
+  }
+  .account-card:last-child {
+    grid-column: span 2;
+    align-self: center;
+    margin: 0 12.8rem;
+  }
+  .section-accounts {
+    padding: 0 4.8rem;
+  }
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 4.8rem;
+  }
+  .section-features {
+    padding: 0 4.8rem;
+  }
+  .feature-title {
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+  }
+  .heading-secondary {
+    margin-bottom: 6.4rem;
+  }
+
+  .how-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+  .how-img-box:nth-child(6) {
+    grid-row: 5;
+  }
+  .accounts-col,
+  .about-col,
+  .help-col {
+    grid-row: 1;
+    grid-column: span 2;
+  }
+  .logo-col,
+  .address-col {
+    grid-row: 2;
+    grid-column: span 2;
+  }
+}
+
+/* ############## */
+/* Bellow 736px */
+/* ############## */
+
+@media (max-width: 46em) {
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+  }
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+  .trusted-text--span {
+    grid-column: 1;
+  }
+  .account-card:last-child {
+    grid-column: span 1;
+    align-self: center;
+    margin: 0 6.4rem;
+  }
+  .account-card {
+    margin: 0 6.4rem;
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+  .section-hero {
+    padding: 0 3.2rem;
+  }
+  .heading-secondary {
+    font-size: 3.2rem;
+  }
+  .how-num {
+    font-size: 5.2rem;
+  }
+  .dots {
+    display: none;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-img-box {
+    display: none;
+  }
+  .account-card:last-child {
+    grid-column: span 1;
+    align-self: center;
+    margin: 0;
+  }
+  .account-card {
+    margin: 0;
+  }
+  /* Mobile Nav */
+  .btn-open-nav {
+    display: block;
+  }
+
+  .header-nav {
+    background-color: rgb(255, 255, 255, 0.95);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .header-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0%);
+  }
+
+  .nav-open .btn-open-nav {
+    display: none;
+  }
+  .nav-open .btn-close-nav {
+    display: block;
+  }
+  .nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 3rem;
+  }
+}
+
+/* ############## */
+/* Bellow 500px */
+/* ############## */
+
+@media (max-width: 32em) {
+  html {
+    font-size: 50%;
+  }
+  .header-logo {
+    width: 150px;
+  }
+  .main-header {
+    padding: 0 2.4rem;
+  }
+  .section-hero {
+    padding: 0 1.2rem;
+  }
+  .section-accounts,
+  .section-features {
+    padding: 0 3.2rem;
+  }
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.4rem;
+  }
+  .btn-right {
+    right: 8%;
+    transform: translate(50%, -50%);
+  }
+  .btn-left {
+    left: 8%;
+    transform: translate(-50%, -50%);
+  }
+  .margin-md-bottom {
+    margin-bottom: 2.4rem;
+  }
+  .grid--5-cols {
+    grid-template-columns: 1fr;
+  }
+  .accounts-col,
+  .about-col,
+  .help-col {
+    grid-row: auto;
+    grid-column: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo-col,
+  .address-col {
+    grid-row: auto;
+    grid-column: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
