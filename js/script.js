@@ -123,5 +123,3 @@ function mobileNav() {
     }
   });
 }
-
-// Smooth scroll for older browsers

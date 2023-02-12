@@ -8,6 +8,7 @@ header {
   justify-content: space-between;
   padding: 0 3.2rem;
   margin-bottom: 9.6rem;
+  position: relative;
 }
 
 .header-nav {

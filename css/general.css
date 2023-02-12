@@ -61,6 +61,7 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  max-width: 100%;
 }
 
 body {
@@ -69,6 +70,7 @@ body {
   font-weight: 400;
   color: #555;
   overflow-x: hidden;
+  max-width: 100%;
 }
 
 .container {
