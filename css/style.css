@@ -70,6 +70,8 @@ header {
 .section-hero {
   margin-bottom: 9.6rem;
   padding: 0 9.6rem;
+
+  transition: transform 1s, opacity 1s;
 }
 
 .hero-img {
@@ -125,6 +127,8 @@ header {
 .section-trusted {
   margin-bottom: 9.6rem;
   padding: 0 9.6rem;
+
+  transition: transform 1s, opacity 1s;
 }
 
 .trusted-text {
@@ -140,6 +144,8 @@ header {
 .section-accounts {
   margin-bottom: 9.6rem;
   padding: 0 6.4rem;
+
+  transition: transform 1s, opacity 1s;
 }
 
 .account-card {
@@ -229,12 +235,14 @@ header {
 }
 
 /**************************/
-/* ACCOUNTS SECTION */
+/* FEATURES SECTION */
 /**************************/
 
 .section-features {
-  margin-bottom: 9.6rem;
+  margin-bottom: 9rem;
   padding: 0 6.4rem;
+
+  transition: transform 1s, opacity 1s;
 }
 
 .feature-icon {
@@ -264,6 +272,8 @@ header {
 
 .section-how {
   margin-bottom: 9.6rem;
+
+  transition: transform 1s, opacity 1s;
 }
 .how-text-box {
   padding: 2.4rem;
@@ -297,6 +307,8 @@ header {
 
 .section-testimonials {
   margin-bottom: 9.6rem;
+
+  transition: transform 1s, opacity 1s;
 }
 
 .slider {
@@ -425,6 +437,8 @@ header {
 
 .section-cta {
   margin-bottom: 30rem;
+
+  transition: transform 1s, opacity 1s;
 }
 
 .cta {

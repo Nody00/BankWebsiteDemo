@@ -170,3 +170,15 @@ body {
 .margin-md-top {
   margin-top: 4.8rem;
 }
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
+img {
+  transition: filter 0.5s;
+}
+.lazy-img {
+  filter: blur(20px);
+}
